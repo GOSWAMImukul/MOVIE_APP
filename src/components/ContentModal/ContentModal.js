@@ -5,7 +5,7 @@ import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Button from '@mui/material/Button';
 import axios from 'axios';
-import  { useEffect, useState } from "react";
+import  { useEffect } from "react";
 import { img_500, unavailable, unavailableLandscape } from '../../config/config';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import "./ContentModal.css";

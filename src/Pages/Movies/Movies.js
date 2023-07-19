@@ -31,7 +31,7 @@ const Movies = () => {
 
   return (
     <div>
-      <span className="pageTitle">Movies</span>
+      <span className="pageTitle" style={{backgroundColor:'#20b2aa'}}><b>Movies</b></span>
       <Genres
        type="movie"
        selectedGenres={selectedGenres}

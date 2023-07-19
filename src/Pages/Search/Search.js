@@ -7,6 +7,7 @@ import CustomPagination from '../../components/Pagination/CustomPagination';
 import SingleContent from '../../components/SingleContent/SingleContent';
 
 
+
 const Search = () => {
   
   const [type, setType] = useState(0);
@@ -52,7 +53,7 @@ const Search = () => {
 
        
         <TextField
-            style={{ flex: 1}}
+            style={{ flex: 1, color:'#ff0000',backgroundColor:'#ffefd5',textColor:'#ffa500'}}
             className="searchBox"
             label="Search"
             variant="filled"
@@ -77,8 +78,8 @@ const Search = () => {
           style={{ paddingBottom: 5 }}
           aria-label="disabled tabs example"
           >
-          <Tab style={{ width: "50%" }} label="Search Movies" />
-          <Tab style={{ width: "50%" }} label="Search TV Series" />
+          <Tab style={{ width: "50%" ,color:'#7cfc00'}} label="Search Movies" />
+          <Tab style={{ width: "50%" ,color:'#7cfc00'}} label="Search TV Series" />
           
         </Tabs>
       </ThemeProvider>
