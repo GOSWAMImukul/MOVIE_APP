@@ -70,7 +70,7 @@
   }
   .ContentModal__portrait {
     display: flex;
-    width: 38%;
+    width: 28%;
   }
   .ContentModal {
     flex-direction: row;
